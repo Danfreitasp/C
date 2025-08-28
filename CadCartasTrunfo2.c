@@ -7,13 +7,13 @@ int main() {
 
     // Carta Um
     printf("Digite o estado da carta 1: \n");
-    scanf(" %19[^\n]", estado1);
+    scanf(" %19[^\n]", estado1); //%19[^\n] adicionado para leitura de estados com nome composto (Fará a leitura até /n e com limite de 19 caracteres).
 
     printf("Digite o código (ex: A01, B03): \n");
     scanf(" %3s", codigo1);
 
     printf("Digite a cidade da carta 1: \n");
-    scanf(" %19[^\n]", cidade1);
+    scanf(" %19[^\n]", cidade1); //%19[^\n] adicionado para leitura de cidades com nome composto (Fará a leitura até /n e com limite de 19 caracteres).
 
     printf("Digite a população da carta 1: \n");
     scanf("%d", &populacao1);
@@ -29,13 +29,13 @@ int main() {
 
     // Carta Dois
     printf("Digite o estado da carta 2: \n");
-    scanf(" %19[^\n]", estado2);
+    scanf(" %19[^\n]", estado2); //%19[^\n] adicionado para leitura de estados com nome composto (Fará a leitura até /n e com limite de 19 caracteres).
 
     printf("Digite o código (ex: A01, B03): \n");
     scanf(" %3s", codigo2);
 
     printf("Digite a cidade da carta 2: \n");
-    scanf(" %19[^\n]", cidade2);
+    scanf(" %19[^\n]", cidade2); //%19[^\n] adicionado para leitura de cidades com nome composto (Fará a leitura até /n e com limite de 19 caracteres).
 
     printf("Digite a população da carta 2: \n");
     scanf("%d", &populacao2);
@@ -70,3 +70,4 @@ int main() {
 
     return 0;
 }
+
