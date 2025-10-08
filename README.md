@@ -54,6 +54,24 @@ Exercícios focados em laços de repetição (`for`, `while`, `do...while`) e si
 
 ---
 
+### 🔹 Tema 5 – Vetores, Matrizes e Arrays
+Introdução às **estruturas de dados compostas**, explorando vetores e matrizes para armazenamento e manipulação de múltiplos valores em memória.
+
+- **Vetores (Arrays unidimensionais)**  
+  - Declaração, inicialização e iteração com `for`.  
+  - Exercícios de soma, média, busca e ordenação de elementos.
+
+- **Matrizes (Arrays bidimensionais)**  
+  - Criação e manipulação de tabelas numéricas.  
+  - Impressão formatada com loops aninhados.  
+  - Simulação de tabuleiros e desafios lógicos.
+
+- **Desafios Práticos**  
+  - **Treinamento de Matrizes** → preenchimento automático e visualização.  
+  - **Desafio Batalha Naval (versão 1)** → representação gráfica de um tabuleiro 10x10 utilizando matrizes.
+
+---
+
 ## 🔧 Como compilar e executar
 
 1. Instale o compilador GCC.  
